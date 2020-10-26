@@ -1,0 +1,164 @@
+
+
+body{
+background-color: #EA4C4C;
+font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+text-align: center;
+	margin: 0px;
+}
+
+
+h1 ,h2,h3{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+nav{
+	background-color:#A1C45A;
+	position:fixed;
+	width: 100%;
+	text-align: left;
+}
+
+.nav-logo{
+	height: 70px;
+	margin-left: 60px;
+	margin-top: 20px;
+	
+}
+
+.nav-logo-text{
+	color:#FFF9E0;
+	font-weight: bold;
+	margin-top: 0px;
+	padding-left: 25px;
+	
+}
+
+ol{
+	list-style: none;	
+}
+
+li{
+	display: inline-block;
+	margin-top: 25px;
+}
+
+li a{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color:#FFF9E0;
+	text-decoration: none;
+	margin: 0px 30px;
+
+}
+
+li a:hover{
+	color: darkgrey;
+}
+
+.nav-content{
+	position: absolute;
+	top:10px;
+	right: 40px;
+}
+
+.big-logo{
+	height: 400px;
+	margin-top: 230px;
+}
+
+.logo-text{
+	font-size: 70px;
+    color:#FFF9E0;
+	text-transform: uppercase;
+	margin-top: 0px;
+	
+}
+
+hr{
+	width: 50%;
+	border-style: solid none none none;
+	border-color: #F1C550;
+	border-width: thick;
+	padding:  2%;
+}
+
+
+.second-section{
+	background-color: #FFF9E0;
+	text-align: left;
+    padding: 30px 10px;
+}
+
+
+.form-header{
+	text-align: center;
+	text-transform: uppercase;
+	color:#A1C45A;
+}
+
+form{
+	border:solid 1px darkgray;
+	border-radius: 2%;
+	padding: 20px 20%;
+	margin:3% 10%; 
+}
+
+label{
+	color: #EA4C4C;
+}
+.option-text,span{
+	color: #A1C45A;
+}
+
+
+input[type=text]:hover{
+	border:solid thin #A1C45A;
+	
+}
+
+input[type=number]:hover{
+	border:solid thin #A1C45A;
+}
+
+
+input[type=submit]{
+	letter-spacing: 2px;
+	color: #A1C45A;
+	background-color: white;
+	border-color: #A1C45A;
+	padding: 16px 50px;
+	margin-radius:4px 2px;
+	border-style: solid;
+	position: relative;
+	left: 41%;
+}
+
+
+
+
+input[type=submit]:hover{
+	border: thick solid #EA4C4C; 
+	font-weight: bold;
+}
+
+#foot{
+	color:#FFF9E0;
+	font-size:13px;
+	text-transform: uppercase;
+	padding: 40px 0px;
+	
+}
+
+.col-1{
+	margin-bottom:20px; 
+}
+
+
+.col-2{
+	display: inline-block;
+	margin: 0px 10px ;
+}
+
+
+

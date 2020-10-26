@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Davie JR's Menu</title>
+	<link rel="stylesheet" type="text/css" href="worksheet4.css">
+</head>
+
+<body>
+<!--Navigator part  -->
+	<nav>
+		<a href="#">
+		<img class="nav-logo" 
+src=" https://www.flaticon.com/svg/static/icons/svg/3572/3572242.svg" alt="logo"></a>
+		<p class="nav-logo-text">DAVIE’S BURGERS</p>
+		
+		<div class="nav-content">
+			<ol>
+				<li><a href="#">menu</a> </li>
+				<li><a href="#">nutrition</a></li>
+				<li><a href="#">order</a> </li>
+				<li> <a href="#">about us</a></li>
+			</ol>
+		</div>	
+	</nav>
+
+<!--	first section -->	
+	<section>
+		<img class="big-logo"
+ 	src="https://www.flaticon.com/svg/static/icons/svg/3572/3572242.svg" alt="logo">
+		<h1 class="logo-text"> Davie’s Burgers </h1>
+	</section>
+	<hr>
+	
+<!--second section-->	
+	<section class="second-section">
+		
+	<h2 class="form-header">Create your burger now </h2>
+		<form action="#" method="GET">
+			<div>
+				<label for="patty">What type of protein would you like? </label>
+				<input type="text" name="patty" id="patty">
+			</div>
+
+			<div>
+				<label for="amount">How many patties would you like? </label>
+				<input type="number" name="amount" id="amount"> 
+			</div>
+			
+<div>
+				<label for="doneness">How do you want your patty cooked</label>
+				<span>Rare</span>
+				<input type="range" name="doneness" id="doneness" value="3" min="1" max="5">
+				<span>Well-Done</span> 
+			</div>
+			
+			<div>
+				<label>What toppings would you like? </label>
+				<input type="checkbox" name="topping" id="lettuce" value="lettuce">
+				<label class="option-text" for="lettuce">Lettuce</label>
+				<input type="checkbox" name="topping" id="tomato" value="tomato">
+				<label class="option-text" for="tomato">Tomato</label>
+				<input type="checkbox" name="topping" id="onion" value="onion">
+				<label class="option-text" for="onion">Onion</label> 
+			</div>
+			
+<div>
+				<label>Would you like to add cheese? </label>
+				<input type="radio" name="cheese" id="yes" value="yes">
+				<label class="option-text" for="yes">Yes</label>
+				<input type="radio" name="cheese" id="no" value="yes">
+				<label class="option-text" for="no">No</label>
+			</div>
+			<input type="submit" value="Submit">
+			
+		</form>
+	</section>
+	<footer id="foot"> 
+		<div class="col-1">&copy; Copyright for Davies Burgers &trade; </div>
+		<div class="col-1"> follow us on: </div>
+		<div class="col-2"><img src="https://1000logos.net/wp-content/uploads/2017/06/Twitter-symbol.jpg" height="15px" width="15px" > twitter </div>
+		<div class="col-2"> <img src="https://sguru.org/wp-content/uploads/2018/01/instagram-logo-black-transparent.png"height="15px" width="15px">instrgram </div>
+	</footer>
+</body>
+</html>
